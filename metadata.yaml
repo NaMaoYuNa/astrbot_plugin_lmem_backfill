@@ -1,0 +1,9 @@
+name: lmem_backfill
+display_name: 长期记忆历史回填
+desc: 抓取群聊历史消息，经 LivingMemory 总结后写入长期记忆库。
+version: 1.0.0
+author: local
+repo: ""
+tags:
+  - memory
+  - backfill

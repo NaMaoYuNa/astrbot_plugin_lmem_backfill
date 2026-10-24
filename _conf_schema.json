@@ -1,0 +1,27 @@
+{
+  "auto_start": {
+    "type": "bool",
+    "description": "插件加载后自动回填一次（按群名关键字匹配目标群，已回填过的群会跳过）",
+    "default": false
+  },
+  "force_rerun": {
+    "type": "bool",
+    "description": "忽略已完成记录，强制重新回填（与 auto_start 配合使用）",
+    "default": false
+  },
+  "group_keyword": {
+    "type": "string",
+    "description": "自动回填时用于匹配群名的关键字",
+    "default": "多多后宫"
+  },
+  "count": {
+    "type": "int",
+    "description": "回填消息条数上限",
+    "default": 500
+  },
+  "since": {
+    "type": "string",
+    "description": "只处理该日期之后的消息，格式 YYYY-MM-DD",
+    "default": "2026-07-01"
+  }
+}
